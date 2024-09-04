@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: #56047c;
+    color: #8d10c7;
+    font-family: "Oswald";
+}
+
+h1 {
+    font-size: 3.4em;
+    text-shadow: 0 0 2px #000000;
+}
+
+#main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    width: 28rem;
+    margin: 2% 0 2% 0;
+    padding: 0 0 1% 0;
+    border-radius: 25px;
+    background-color: #360050;
+    box-shadow: 4px 4px 3px #4f0074;
+}
+
+#main-block h3{
+    height: 30%;
+}
+
+#main-block #input-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main-block input{
+    width: 70%;
+    margin-right: 2%;
+    background-color: #120029;
+    caret-color: #8d10c7;
+    border: none;
+    border-radius: 15px;
+    border-bottom: 1px solid #8d10c7;
+    outline: none;
+}
+
+#main-block button{
+    height: 35px;
+    width: 80px;
+    color: #8d10c7;
+    background-color: #1d0042;
+    border: none;
+    border-radius: 25px;
+    border-bottom: 1px solid #100025;
+}
+
+#main-block button:active {
+    background-color: #120029;
+    transform: translateY(3px);
+    box-shadow: 0 0px #666, inset 0 5px 10px rgba(0, 0, 0, 0.5);;
+}
+
+#main-block #is-palindrome{
+    display: none;
+}
+
+#palindrome-hint {
+    height: 8rem;
+    width: 27rem;
+    border-radius: 25px;
+    background-color: #1d0042;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#palindrome-hint h3{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    font-family: serif;
+    word-spacing: 2px;
+}

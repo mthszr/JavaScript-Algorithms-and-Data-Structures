@@ -33,7 +33,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     height: 8rem;
-    width: 28rem;
+    width: 27rem;
     margin: 2% 0 2% 0;
     padding: 0 0 1% 0;
     border-radius: 25px;
@@ -43,19 +43,22 @@ h1 {
 
 #main-block h3{
     height: 30%;
+    margin-top: 4%;
+    font-weight: 300;
 }
 
 #main-block #input-text{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 #main-block input{
     width: 70%;
     margin-right: 2%;
+    color: rgb(151, 148, 148);
     background-color: #120029;
     caret-color: #8d10c7;
     border: none;
@@ -80,8 +83,9 @@ h1 {
     box-shadow: 0 0px #666, inset 0 5px 10px rgba(0, 0, 0, 0.5);;
 }
 
-#main-block #is-palindrome{
+#main-block #is-palindrome-div{
     display: none;
+    font-size: 1.7rem;
 }
 
 #palindrome-hint {
